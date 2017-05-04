@@ -14,6 +14,7 @@ p {
 
 li {
 	margin-bottom: 5px;
+	list-style: none;
 }
 
 ul {
@@ -21,6 +22,7 @@ ul {
 	margin-bottom: 5px;
 	margin-left: 0;
 	margin-right: 0;
+	padding-left: 0;
 }
 
 h1, h2, h3, h4, h5 { 
@@ -58,4 +60,22 @@ h5 {
 .app {
 	padding: 10px;
 	width: 800px;
+	margin: 0 auto;
+	background: #F8F7F3;
+	border-top: 8px solid #008922;
+}
+.left__column{
+	width: 20%;
+	float: left;
+}
+.right__column{
+	width: 80%;
+	float: left;
+}
+.clearfix:after {
+	content: " "; /* Older browser do not support empty content */
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
 }

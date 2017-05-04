@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import * as styles from './styles.css'
 import coverLetter from 'shared/content/coverLetter'
 import { basics } from 'shared/content/resume'
-import Header from 'shared/Header'
+import Details from 'shared/Details'
 import signature from './signature.png'
 
 import months from 'shared/months'

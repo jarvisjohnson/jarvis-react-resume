@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jarvis Johnson",
     "label": "Full Stack Engineer",
-    "picture": "",
+    "picture": "images/jarvis-johnson-profile.jpg",
     "email": "jarviscjohnson@gmail.com",
     "phone": "(347) 641 7815",
     "website": "https://builtincode.com",
@@ -90,26 +90,57 @@
       "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
   ],
-  "skills": [
+  "talents": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "category": "Front End",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "React",
+        "Sass",
+        "Semantic UI"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "category": "Back End",
+      "keywords": [
+        "Ruby",
+        "Rails"
+      ]
+    },
+    {
+      "category": "Server",
+      "keywords": [
+        "Linux Command Line",
+        "MP4",
+        "GIF"
+      ]
+    }    
+  ],
+  "projects": [
+    {
+      "category": "Front End",
+      "keywords": [
+        "React",
+        "Sass",
+        "Sematic UI"
+      ]
+    },
+    {
+      "category": "Back End",
+      "keywords": [
+        "Ruby",
+        "Rails",
+        "GIF"
+      ]
+    },
+    {
+      "category": "Server",
       "keywords": [
         "Mpeg",
         "MP4",
         "GIF"
       ]
-    }
-  ],
+    }    
+  ],  
   "languages": [
     {
       "language": "English",

@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 
 import * as styles from './styles.css'
 import resume from 'shared/content/resume'
-import Header from 'shared/Header'
-import Profile from 'shared/Profile'
 import { abbreviations as monthAbbrs } from 'shared/months'
 
 const formatDateRange = ({startDate, endDate}) => {
@@ -49,30 +47,8 @@ const Job = ({
 const mapTo = SomeComponent => (props, i) => 
 	<SomeComponent key={i} {...props} />
 
-const Skill = ({name, keywords}) =>
-	<div>
-		<h3>{name}</h3>
-		<ul className={styles.gridList}>
-			{keywords.reduce((list, next, i, original) => {
-				var halfway = Math.round(original.length / 2)
-
-				if (i < halfway)
-					list.push([next])
-				else
-					list[i - halfway].push(next)
-
-				return list
-			}, []).map((arr, i) =>
-				<div key={i} className={styles.gridListColumn}>
-					{arr.map(makeList)}
-				</div>
-			)}
-		</ul>
-	</div>
-
 const Resume = ({education, work, volunteer, skills}) =>
 	<div className={styles.container} >
-		<Header />
 
 		<div className={styles.section} >
 			<h2 className={styles.break}>Education</h2>
@@ -95,10 +71,6 @@ const Resume = ({education, work, volunteer, skills}) =>
 			{work.map(mapTo(Job))}
 		</div>
 
-		<div>
-			<h2 className={styles.break}>Skills and Coursework</h2>
-			{skills.map(mapTo(Skill))}
-		</div>
 
 	</div>
 

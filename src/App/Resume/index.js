@@ -15,12 +15,14 @@ const formatDateRange = ({startDate, endDate}) => {
 
 const makeList = (m, i) => <li key={i}>{m}</li>
 
-const School = ({institution, area, studyType, startDate, endDate, gpa, courses}) =>
+const majorList = (m, i) => <span key={i}>{m} </span>
+
+const School = ({institution, area, studyType, startDate, endDate, gpa, majors}) =>
 	<div className={styles.sectionItem}>
 		<p className={styles.date}>{formatDateRange({startDate, endDate})}</p>
 		<div className={styles.sectionContent}>
 			<h3>{institution}</h3>
-			<div>{area}, {studyType}, GPA: {gpa}</div>
+			<div>{area}, {studyType}, Majors: {majors.map(majorList)}</div>
 		</div>
 	</div>
 

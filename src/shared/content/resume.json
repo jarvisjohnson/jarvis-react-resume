@@ -1,43 +1,48 @@
 {
   "basics": {
-    "name": "Richard Hendriks",
-    "label": "Programmer",
+    "name": "Jarvis Johnson",
+    "label": "Full Stack Engineer",
     "picture": "",
-    "email": "richard.hendriks@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
+    "email": "jarviscjohnson@gmail.com",
+    "phone": "(347) 641 7815",
+    "website": "https://builtincode.com",
     "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "Brooklyn",
+      "postalCode": "NY 11211",
+      "city": "NYC",
       "countryCode": "US",
-      "region": "California"
+      "region": "New York"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "network": "github",
+        "username": "jarvisjohnson",
+        "url": "https://github.com/jarvisjohnson"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "facebook",
+        "username": "jarviscjohnson",
+        "url": "https://www.facebook.com/jarviscjohnson"
+      },
+      {
+        "network": "linkedin",
+        "username": "jarvis-johnson-65813453",
+        "url": "https://www.linkedin.com/in/jarvis-johnson-65813453/"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "Built in Code",
+      "position": "Full stack developer / founder",
+      "website": "https://www.builtincode.com",
+      "startDate": "2015",
+      "endDate": "2017",
+      "summary": "Built in Code build web apps for design agencies and clients worldwide.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
+        "Built a large scale peer-to-peer marketplace allowing rental and sale of high fashion items - Closet Raid",
+        "Client web hosting management app created in Rails, with recurring subscriptions and support requests",
         "Optimized an algorithm that holds the current world record for Weisman Scores"
       ]
     }
@@ -57,15 +62,15 @@
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
+      "institution": "University of Melbourne",
+      "area": "Commerce",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+      "startDate": "2007-03-01",
+      "endDate": "2009-11-29",
+      "gpa": "",
+      "majors": [
+        "Finance",
+        "Marketing"
       ]
     }
   ],

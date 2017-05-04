@@ -1,10 +1,19 @@
 @font-face {
-	font-family: glober;
-	src: url(./Glober Thin.otf);
+  font-family: josefin;
+  src: url('./JosefinSans.eot');
+  src: url('./JosefinSans.eot?#iefix') format('embedded-opentype'),
+    url('./JosefinSans.woff') format('woff'),
+    url('./JosefinSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: glober;
-	src: url(./Glober SemiBold.otf);
-	font-weight: bold;
+  font-family: josefin;
+  src: url('./JosefinSans-Bold.eot');
+  src: url('./JosefinSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./JosefinSans-Bold.woff') format('woff'),
+    url('./JosefinSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }

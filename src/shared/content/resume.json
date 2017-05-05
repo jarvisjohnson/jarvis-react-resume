@@ -1,5 +1,6 @@
 {
   "basics": {
+    "font-size": "16px",
     "name": "Jarvis Johnson",
     "label": "Full Stack Engineer",
     "picture": "images/jarvis-johnson-profile.jpg",
@@ -20,14 +21,19 @@
         "url": "https://github.com/jarvisjohnson"
       },
       {
+        "network": "linkedin",
+        "username": "jarvis-johnson",
+        "url": "https://www.linkedin.com/in/jarvis-johnson-65813453/"
+      },
+      {
         "network": "facebook",
         "username": "jarviscjohnson",
         "url": "https://www.facebook.com/jarviscjohnson"
       },
       {
-        "network": "linkedin",
-        "username": "jarvis-johnson-65813453",
-        "url": "https://www.linkedin.com/in/jarvis-johnson-65813453/"
+        "network": "business",
+        "username": "Built in Code",
+        "url": "https://www.builtincode.com"
       }
     ]
   },
@@ -59,7 +65,7 @@
       ]
     }
   ],
-  "education": [
+  "formalEducation": [
     {
       "institution": "University of Melbourne",
       "area": "Commerce",
@@ -71,8 +77,34 @@
         "Finance",
         "Marketing"
       ]
-    }
+    },
+    {
+      "institution": "General Assembly",
+      "area": "Front End Web Development",
+      "studyType": "10 weeks part time",
+      "startDate": "2014-06-01",
+      "endDate": "2014-09-09",
+      "gpa": "",
+      "majors": [
+        "",
+        ""
+      ]
+    }    
   ],
+  "continuingEducation": [
+    {
+      "institution": "Treehouse",
+      "area": "Full Stack WordPress",
+      "studyType": "Online",
+      "startDate": "2014-10-01",
+      "endDate": "2014-12-15",
+      "gpa": "",
+      "majors": [
+        "Finance",
+        "Marketing"
+      ]
+    }
+  ],  
   "awards": [
     {
       "title": "Digital Compression Pioneer Award",
@@ -110,34 +142,55 @@
       "category": "Server",
       "keywords": [
         "Linux Command Line",
-        "MP4",
-        "GIF"
+        "Heroku / Digital Ocean",
+        "S3 / Cloudfront"
       ]
     }    
   ],
   "projects": [
     {
-      "category": "Front End",
-      "keywords": [
-        "React",
-        "Sass",
-        "Sematic UI"
+      "category": "For Clients",
+      "sites": [
+        {
+          "title": "Closet Raid",
+          "link": "https://www.closetraid.com.au",
+          "stack": ["rails", "mysql", "heroku"]
+        },
+        {
+          "title": "SAENA",
+          "link": "https://www.saena.com.au",
+          "stack": ["rails", "mysql", "heroku"]
+        },
+        {
+          "title": "Closet Raid",
+          "link": "https://www.closetraid.com.au",
+          "stack": ["rails", "mysql", "heroku"]
+        }        
       ]
     },
     {
-      "category": "Back End",
-      "keywords": [
-        "Ruby",
-        "Rails",
-        "GIF"
+      "category": "Personal",
+      "sites": [
+        {
+          "title": "Closet Raid",
+          "link": "https://www.closetraid.com.au",
+          "stack": ["rails", "mysql", "heroku"]
+        },
+        {
+          "title": "Built in Code",
+          "link": "https://www.builtincode",
+          "stack": ["rails", "mysql", "wordpress"]
+        }    
       ]
     },
     {
-      "category": "Server",
-      "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+      "category": "Open Source",
+      "sites": [
+        {
+          "title": "Sharetribe Stripe Connect",
+          "link": "https://github.com/jarvisjohnson/sharetribe-stripe-connect",
+          "stack": ["rails", "Stripe API", "Sphinx"]
+        }
       ]
     }    
   ],  

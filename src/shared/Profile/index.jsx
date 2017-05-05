@@ -11,24 +11,21 @@ const mapTo = SomeComponent => (props, i) =>
 
 const Social = ({network, username, url}) =>
 <div>
-  <h3>{category}</h3>
-  <ul className={styles.gridList}>
-    {keywords.reduce((list, next, i, original) => {
-      var halfway = Math.round(original.length / 2)
+	{network}:
+	<a href={url} target="_blank">
+		{username}
+	</a>
+</div>
 
-      if (i < halfway)
-        list.push([next])
-      else
-        list[i - halfway].push(next)
+// Date.prototype.addDays = function(days) {
+//   var dat = new Date(this.valueOf());
+//   dat.setDate(dat.getDate() + days);
+//   return dat;
+// }
 
-      return list
-    }, []).map((arr, i) =>
-      <div key={i} className={styles.gridListColumn}>
-        {arr.map(makeList)}
-      </div>
-    )}
-  </ul>
-</div>  
+// var dat = new Date(2014, 6, 1);
+
+				// {dat.addDays(70).toString()}
 
 const getLocationString = ({city, region, postalCode}) =>
 	`${city}, ${region} ${postalCode}`
@@ -44,6 +41,7 @@ const Profile = ({name, label, email, phone, website, summary, location, picture
 			</li>
 			<li>
 				{phone}
+
 			</li>
 			<li>
 				{getLocationString(location)}

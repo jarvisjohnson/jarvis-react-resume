@@ -13,14 +13,14 @@ export default class Container extends Component {
     return (
       <div>
         <Profile />
-        <div>
+        <div className={styles.section}>
           <h2 className={styles.break}>Skills</h2>
           <Skills />
         </div>
-        <div>
+        <div className={styles.section}>
           <h2 className={styles.break}>Projects</h2>
           <Projects />
-        </div>        
+        </div>  
       </div>
     )
   }
